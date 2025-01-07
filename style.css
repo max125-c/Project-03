@@ -7,34 +7,39 @@
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
+    
 }
 .container1{
+    background-color: #ffffff;
     height: 70px;
+    width: 100%;
     border-bottom: 1px solid #96949448;
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* padding:0px 100px 0px 100px; */
-    
+    position: fixed;
 }
 
 .child1 img{
-    width: 150px ;
+    height: 17px;
+    /* width: 150px ; */
 }
 
 .child2{
     margin-left: 50px;
     display: flex;
     align-items: center;
-    gap: 2vw;
+    gap: 3vw;
 }
 .child2 a{
     
     /* padding: 30px; */
     text-decoration: none;
-    color: #666666;
-    
-
+    color: #666;
+}
+.child2 a:hover{
+    color: #387ed1;
 }
 /* middle format */
 .container2{
@@ -43,7 +48,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 70px;
+    /*margin-top: 70px; this will creates issue */
+    padding-top: 150px;
     
 }
 .container2 img{
@@ -94,4 +100,149 @@ body{
     margin: 0;
     box-sizing: border-box;
 
+}
+
+/* Ecosystem block of code  */
+
+.container3{
+    background-color: #ffffff;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    font-size: 16px;
+    padding-top: 150px;
+    
+
+}
+.container3 .child3{
+    margin-left: 13%;
+    padding-left: 0%;
+    padding-right: 5%;
+    margin-right: 0%;
+}
+.container3 .child3 h1{
+    
+    color: #292929;
+    /* width: 480px; */
+    font-size: 32px;
+    padding-bottom: 50px;
+    font-weight:lighter;
+}
+.container3 .child3 h2{
+   
+
+    /* width: 32px; */
+    font-size: 20px;
+    color: #2b2a2a;
+    padding-bottom: 15px;
+    font-weight:normal;
+}
+.container3 .child3 p{
+    font-size: 16px;
+    color: #666666;
+    padding-bottom: 35px;
+    font-weight: normal;
+    word-spacing: 3px;
+    /* use to manage height between lines */
+    line-height: 25px;
+
+}
+.container3 .child3 span{
+    color: #387ed1;
+
+}
+.container3 .child3 span:hover{
+    color: #1d1d1d;
+
+}
+.container3 .child4{
+    margin-left: 0%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container3 img{
+    width: 625px;
+    padding-left: 0px;
+}
+.container3 .para3 a{
+    /* display: inline; */
+    text-decoration: none;
+    color: #387ed1;
+    word-spacing: 3px;
+}
+.container3 .child4 .para3 span{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.container3 .para3 a:hover
+{
+    color:#1d1d1d;
+    
+}
+
+/* new template immage styling */
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+.container4 img:hover{
+    opacity: .7;
+}
+
+/* next block of the is unbeatable pring */
+.container5{
+    display: flex;
+    padding: 100px;
+    padding-top: 0%;
+    padding-inline: 200px;
+}
+.container5 .child6 {
+    font-size: 16px;
+    line-height: 2;
+}
+.container5 .child6 h2 {
+    font-size: 38px;
+    font-weight:lighter;
+    color: #424242;
+}
+
+.container5 .child6 p {
+    font-size: 16px;
+    font-weight:lighter;
+    color: #424242;
+}
+.container5 .child6 span {
+    font-size: 22px;
+    font-weight:lighter;
+    color: #387ed1;
+}
+.container5 .child6 a {
+    font-size: 16px;
+    color: #387ed1;
+    font-weight:lighter;
+    text-decoration: none;
+}
+.container5 .child6 a:hover {
+    color: #222;
+}
+
+.container5 .child7{
+    display: flex;
+    align-items:center;
+}
+.container5 .child7 img{
+    width: 650px
+    
 }
