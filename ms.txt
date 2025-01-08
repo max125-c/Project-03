@@ -1,0 +1,6 @@
+adding video to background
+    <video src="video url"><video>
+
+    disk style none for removing the disks in unordered list
+
+    color picker 
