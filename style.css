@@ -49,7 +49,7 @@ body{
     align-items: center;
     flex-direction: column;
     /*margin-top: 70px; this will creates issue */
-    padding-top: 10px;
+    padding-top: 100px;
     
 }
 .container2 img{
