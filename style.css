@@ -49,7 +49,7 @@ body{
     align-items: center;
     flex-direction: column;
     /*margin-top: 70px; this will creates issue */
-    padding-top: 150px;
+    padding-top: 120px;
     
 }
 .container2 img{
@@ -245,4 +245,160 @@ body{
 .container5 .child7 img{
     width: 650px
     
+}
+
+.container6{    
+
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-inline: 150px;
+    gap: 130px;
+  
+
+}
+.container6 .child8{
+    /* line-height:; */
+}
+.container6 .child9 dd{
+    font-size: 32px ;
+    line-height: 3;
+    width: auto;
+}
+.container6 .child9 li{
+    font-size: 16px;
+    /* for removing the disk form list */
+    list-style-type: none;
+    line-height: 2.5;
+    width: 500px;
+}
+
+.container6 .child9 li a{
+    margin-top: 20;
+
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #387ed1;
+}
+/* open account block */
+.container7{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+.container7 h2{
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #424242;
+}
+.container7 p{
+    /* display: flex;
+    justify-content: center; */
+    margin: 35px 0 18px ;
+    color: #666666;
+}
+.container7 a{
+    /* display:flex;
+    justify-content: center; */
+    text-decoration: none;
+    color: #df5050;
+}
+
+.container7 button{
+    background-color: #387ed1;
+    color: #ffffff;
+    font-size: 19.2px;
+    margin-top: 20px;
+    height: 43px;
+    width: 205px;
+    border-radius:  3px; ;
+    border: 1px solid #387ed1;
+}
+
+
+/* new footer */
+.container8{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top: 50px;
+    padding-inline:175px;
+    background-color: #fbfbfb;
+    border-top: 1px solid #eee;
+    height: auto;
+
+}
+.container8 .child10{
+    line-height: 25px;
+    width: 275px;
+}
+.container8 .child10 img{
+    width: 175px;    
+}
+
+.container8 .child10 P{
+    font-size: 13px;
+    color: #666;
+}
+.container8 .child10 a{
+    line-height: 2;
+    margin-right: 11px;
+    
+    word-spacing: 2000px;
+}
+
+.container8 .child10 i{
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.container8 .child11 {
+    gap: 20px;
+
+    line-height: 26px;
+}
+/* Problem in hover */
+.container8 .child11 p:hover{
+    color: #387ed1;
+}
+
+/* last footer  */
+
+.container9{
+    padding-inline: 200px;
+    padding-top: 30px;
+    font-size: 10.4px;
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+.container9 p{
+    /* margin: 20px; */
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 20px;
+    
+}
+.container9 .footer {
+    /* padding-inline: 20px; */
+    /* align-self: center; */
+}
+.footer a{
+    font-size: 10.4px;
+    text-decoration: none;
+    color: #666;
+    padding-left: 80px;
+    /* word-spacing: 20px; */
+    padding-top: 200px;
+    padding-bottom: 30px;
+
 }
